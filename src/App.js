@@ -22,11 +22,11 @@ App=()=>{
 
 const router=createBrowserRouter([
     {
-        path:"/HealTether",
+        path:"/",
         element:<App/>,
         children:[
             {
-                path:"/HealTether",
+                path:"/",
                 element:<PatientRecord/>
             },
             {
